@@ -190,6 +190,13 @@ Track and change faces on the fly.
 **See the Magic!**
 
 
+### video-quality
+
+**Default Value: 18**
+The video-quality parameter allows you to specify the resolution of the output video. By adjusting this setting, you can control the clarity and sharpness of the video, with higher values producing better quality but potentially larger file sizes.
+
+Supported Values: [0 to 51]
+
 ## Command Line Arguments
 
 ```
@@ -295,7 +302,7 @@ dmesg | tail
 sudo ls -al /dev/video*  
 ```  
   
-**6. Set Up Permissions**  
+**6. Set Up Permissions**   
   
 1. Add user to video group and set permissions:  
   
